@@ -110,6 +110,8 @@ int main()
     if (programState->ImGuiEnabled) {
         glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_NORMAL);
     }
+    Model tvModel(FileSystem::getPath("resources/objects/tv/TV set N140418.obj").c_str());
+    Model deskModel(FileSystem::getPath("resources/objects/desk/CoffeeTable1.obj").c_str());
 
     Shader shader(FileSystem::getPath("resources/shaders/vertexShader.vs").c_str(),
                   FileSystem::getPath("resources/shaders/fragmentShader.fs").c_str());
@@ -529,6 +531,8 @@ int main()
         lightingShader.setFloat("pointLights[11].linear", 0.09);
         lightingShader.setFloat("pointLights[11].quadratic", 0.032);
 
+
+
         // camera
         programState->view = programState->camera.GetViewMatrix();
         glm::mat4 projection = glm::perspective(glm::radians(programState->camera.Zoom), (float)SCR_WIDTH / (float)SCR_HEIGHT, 0.1f, 100.0f);
@@ -536,6 +540,16 @@ int main()
         lightingShader.setMat4("projection", projection);
         lightingShader.setMat4("view", programState->view);
         lightingShader.setMat4("model", model);
+
+        shader.setMat4("view", programState->view);
+        shader.setMat4("projection", projection);
+        model = glm::mat4(1.0f);
+        function.loadTv(tvModel, model, shader);
+
+        shader.setMat4("view", programState->view);
+        shader.setMat4("projection", projection);
+        model = glm::mat4(1.0f);
+        function.loadDesk(deskModel, model, shader);
 
         //floor
         glBindVertexArray(floorVAO);
@@ -714,7 +728,7 @@ void mouse_callback(GLFWwindow* window, double xpos, double ypos) {
 }
 void scroll_callback(GLFWwindow* window, double xoffset, double yoffset) {
     programState->camera.ProcessMouseScroll(yoffset);
-    programState->effect = true;
+    //programState->effect = true;
 }
 unsigned int loadTexture(char const *path) {
     unsigned int textureID;
