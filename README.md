@@ -1,11 +1,14 @@
-# project_base
-Prazan projekat sa pratećim bibliotekama koje koristimo na času. 
+# RG
+Projekat iz racunarske grafike.
 
 # Uputstvo
-1. `git clone https://github.com/matf-racunarska-grafika/project_base.git`
-2. CLion -> Open -> path/to/my/project_base
-3. Main se nalazi u src/main.cpp
-4. Cpp fajlovi idu u src folder
-5. Zaglavlja (h i hpp) fajlovi idu u include
-6. Šejderi idu u folder shaders. `Vertex shader` ima ekstenziju `.vs`, `fragment shader` ima ekstenziju `.fs`
-7. ALT+SHIFT+F10 -> project_base -> run
+1. `F1` - uključivanje/isključivanje GUI
+2. `W` `A` `S` `D` - kretanje napred, nazad, levo i desno
+3. `esc` - zatvaranje prozora
+4. `Q` `E` - smanjivanje/povećavanje dubine parallax mapping-a
+5. `Scroll` - efekat
+
+# Implementirane oblasti
+A - Cubemaps <br> 
+B - Normal mapping, Parallax Mapping
+<br>

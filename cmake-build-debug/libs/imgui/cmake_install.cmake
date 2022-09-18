@@ -1,4 +1,4 @@
-# Install script for directory: /home/cefika/GRAFIKA/libs/imgui
+# Install script for directory: /home/cefika/Desktop/RG/libs/imgui
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

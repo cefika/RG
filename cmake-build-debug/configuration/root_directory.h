@@ -1,1 +1,1 @@
-const char * logl_root = "/home/cefika/GRAFIKA";
+const char * logl_root = "/home/cefika/Desktop/RG";

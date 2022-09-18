@@ -6,5 +6,5 @@ CXX_FLAGS = -Wall -Wextra -g   -std=gnu++14
 
 CXX_DEFINES = -DIMGUI_IMPL_OPENGL_LOADER_GLAD
 
-CXX_INCLUDES = -I/home/cefika/GRAFIKA/cmake-build-debug/configuration -I/home/cefika/GRAFIKA/include -I/home/cefika/GRAFIKA/libs/glad/include -I/home/cefika/GRAFIKA/libs/imgui/include 
+CXX_INCLUDES = -I/home/cefika/Desktop/RG/cmake-build-debug/configuration -I/home/cefika/Desktop/RG/include -I/home/cefika/Desktop/RG/libs/glad/include -I/home/cefika/Desktop/RG/libs/imgui/include 
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/cefika/GRAFIKA
+# Install script for directory: /home/cefika/Desktop/RG
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,12 +39,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/cefika/GRAFIKA/cmake-build-debug/libs/glad/cmake_install.cmake")
+  include("/home/cefika/Desktop/RG/cmake-build-debug/libs/glad/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/cefika/GRAFIKA/cmake-build-debug/libs/imgui/cmake_install.cmake")
+  include("/home/cefika/Desktop/RG/cmake-build-debug/libs/imgui/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -55,5 +55,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/cefika/GRAFIKA/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/cefika/Desktop/RG/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

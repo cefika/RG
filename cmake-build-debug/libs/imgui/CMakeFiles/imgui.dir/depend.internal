@@ -6,21 +6,21 @@ libs/imgui/CMakeFiles/imgui.dir/src/imgui.cpp.o
  ../libs/imgui/include/imgui.h
  ../libs/imgui/include/imgui_internal.h
  ../libs/imgui/include/imstb_textedit.h
- /home/cefika/GRAFIKA/libs/imgui/src/imgui.cpp
+ /home/cefika/Desktop/RG/libs/imgui/src/imgui.cpp
 libs/imgui/CMakeFiles/imgui.dir/src/imgui_(copy).cpp.o
  ../libs/imgui/include/imconfig.h
  ../libs/imgui/include/imgui.h
  ../libs/imgui/include/imgui_internal.h
  ../libs/imgui/include/imstb_textedit.h
- /home/cefika/GRAFIKA/libs/imgui/src/imgui (copy).cpp
+ /home/cefika/Desktop/RG/libs/imgui/src/imgui (copy).cpp
 libs/imgui/CMakeFiles/imgui.dir/src/imgui_demo.cpp.o
  ../libs/imgui/include/imconfig.h
  ../libs/imgui/include/imgui.h
- /home/cefika/GRAFIKA/libs/imgui/src/imgui_demo.cpp
+ /home/cefika/Desktop/RG/libs/imgui/src/imgui_demo.cpp
 libs/imgui/CMakeFiles/imgui.dir/src/imgui_demo_(copy).cpp.o
  ../libs/imgui/include/imconfig.h
  ../libs/imgui/include/imgui.h
- /home/cefika/GRAFIKA/libs/imgui/src/imgui_demo (copy).cpp
+ /home/cefika/Desktop/RG/libs/imgui/src/imgui_demo (copy).cpp
 libs/imgui/CMakeFiles/imgui.dir/src/imgui_draw.cpp.o
  ../libs/imgui/include/imconfig.h
  ../libs/imgui/include/imgui.h
@@ -28,7 +28,7 @@ libs/imgui/CMakeFiles/imgui.dir/src/imgui_draw.cpp.o
  ../libs/imgui/include/imstb_rectpack.h
  ../libs/imgui/include/imstb_textedit.h
  ../libs/imgui/include/imstb_truetype.h
- /home/cefika/GRAFIKA/libs/imgui/src/imgui_draw.cpp
+ /home/cefika/Desktop/RG/libs/imgui/src/imgui_draw.cpp
 libs/imgui/CMakeFiles/imgui.dir/src/imgui_draw_(copy).cpp.o
  ../libs/imgui/include/imconfig.h
  ../libs/imgui/include/imgui.h
@@ -36,34 +36,34 @@ libs/imgui/CMakeFiles/imgui.dir/src/imgui_draw_(copy).cpp.o
  ../libs/imgui/include/imstb_rectpack.h
  ../libs/imgui/include/imstb_textedit.h
  ../libs/imgui/include/imstb_truetype.h
- /home/cefika/GRAFIKA/libs/imgui/src/imgui_draw (copy).cpp
+ /home/cefika/Desktop/RG/libs/imgui/src/imgui_draw (copy).cpp
 libs/imgui/CMakeFiles/imgui.dir/src/imgui_impl_glfw.cpp.o
  ../libs/imgui/include/imconfig.h
  ../libs/imgui/include/imgui.h
  ../libs/imgui/include/imgui_impl_glfw.h
- /home/cefika/GRAFIKA/libs/imgui/src/imgui_impl_glfw.cpp
+ /home/cefika/Desktop/RG/libs/imgui/src/imgui_impl_glfw.cpp
 libs/imgui/CMakeFiles/imgui.dir/src/imgui_impl_opengl3.cpp.o
  ../libs/glad/include/KHR/khrplatform.h
  ../libs/glad/include/glad/glad.h
  ../libs/imgui/include/imconfig.h
  ../libs/imgui/include/imgui.h
  ../libs/imgui/include/imgui_impl_opengl3.h
- /home/cefika/GRAFIKA/libs/imgui/src/imgui_impl_opengl3.cpp
+ /home/cefika/Desktop/RG/libs/imgui/src/imgui_impl_opengl3.cpp
 libs/imgui/CMakeFiles/imgui.dir/src/imgui_tables.cpp.o
  ../libs/imgui/include/imconfig.h
  ../libs/imgui/include/imgui.h
  ../libs/imgui/include/imgui_internal.h
  ../libs/imgui/include/imstb_textedit.h
- /home/cefika/GRAFIKA/libs/imgui/src/imgui_tables.cpp
+ /home/cefika/Desktop/RG/libs/imgui/src/imgui_tables.cpp
 libs/imgui/CMakeFiles/imgui.dir/src/imgui_tables_(copy).cpp.o
  ../libs/imgui/include/imconfig.h
  ../libs/imgui/include/imgui.h
  ../libs/imgui/include/imgui_internal.h
  ../libs/imgui/include/imstb_textedit.h
- /home/cefika/GRAFIKA/libs/imgui/src/imgui_tables (copy).cpp
+ /home/cefika/Desktop/RG/libs/imgui/src/imgui_tables (copy).cpp
 libs/imgui/CMakeFiles/imgui.dir/src/imgui_widgets.cpp.o
  ../libs/imgui/include/imconfig.h
  ../libs/imgui/include/imgui.h
  ../libs/imgui/include/imgui_internal.h
  ../libs/imgui/include/imstb_textedit.h
- /home/cefika/GRAFIKA/libs/imgui/src/imgui_widgets.cpp
+ /home/cefika/Desktop/RG/libs/imgui/src/imgui_widgets.cpp

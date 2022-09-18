@@ -6,5 +6,5 @@ CXX_FLAGS = -Wall -Wextra -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/cefika/GRAFIKA/cmake-build-debug/configuration -I/home/cefika/GRAFIKA/include 
+CXX_INCLUDES = -I/home/cefika/Desktop/RG/cmake-build-debug/configuration -I/home/cefika/Desktop/RG/include 
 

@@ -6,5 +6,5 @@ C_FLAGS = -g
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/cefika/GRAFIKA/libs/glad/include 
+C_INCLUDES = -I/home/cefika/Desktop/RG/libs/glad/include 
 

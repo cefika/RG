@@ -68,10 +68,10 @@ RM = /home/cefika/CLion-2020.2.4/clion-2020.2.4/bin/cmake/linux/bin/cmake -E rm 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cefika/GRAFIKA
+CMAKE_SOURCE_DIR = /home/cefika/Desktop/RG
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cefika/GRAFIKA/cmake-build-debug
+CMAKE_BINARY_DIR = /home/cefika/Desktop/RG/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,14 +100,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/cefika/GRAFIKA/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/cefika/GRAFIKA/cmake-build-debug/CMakeFiles /home/cefika/GRAFIKA/cmake-build-debug/libs/imgui/CMakeFiles/progress.marks
-	cd /home/cefika/GRAFIKA/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/imgui/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cefika/GRAFIKA/cmake-build-debug/CMakeFiles 0
+	cd /home/cefika/Desktop/RG/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/cefika/Desktop/RG/cmake-build-debug/CMakeFiles /home/cefika/Desktop/RG/cmake-build-debug/libs/imgui/CMakeFiles/progress.marks
+	cd /home/cefika/Desktop/RG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/imgui/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cefika/Desktop/RG/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/cefika/GRAFIKA/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/imgui/clean
+	cd /home/cefika/Desktop/RG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/imgui/clean
 .PHONY : clean
 
 # The main clean target
@@ -117,22 +117,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/cefika/GRAFIKA/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/imgui/preinstall
+	cd /home/cefika/Desktop/RG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/imgui/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/cefika/GRAFIKA/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/imgui/preinstall
+	cd /home/cefika/Desktop/RG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/imgui/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/cefika/GRAFIKA/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/cefika/Desktop/RG/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libs/imgui/CMakeFiles/imgui.dir/rule:
-	cd /home/cefika/GRAFIKA/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/imgui/CMakeFiles/imgui.dir/rule
+	cd /home/cefika/Desktop/RG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/imgui/CMakeFiles/imgui.dir/rule
 .PHONY : libs/imgui/CMakeFiles/imgui.dir/rule
 
 # Convenience name for target.
@@ -142,7 +142,7 @@ imgui: libs/imgui/CMakeFiles/imgui.dir/rule
 
 # fast build rule for target.
 imgui/fast:
-	cd /home/cefika/GRAFIKA/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make libs/imgui/CMakeFiles/imgui.dir/build
+	cd /home/cefika/Desktop/RG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make libs/imgui/CMakeFiles/imgui.dir/build
 .PHONY : imgui/fast
 
 src/imgui.o: src/imgui.cpp.o
@@ -151,7 +151,7 @@ src/imgui.o: src/imgui.cpp.o
 
 # target to build an object file
 src/imgui.cpp.o:
-	cd /home/cefika/GRAFIKA/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make libs/imgui/CMakeFiles/imgui.dir/src/imgui.cpp.o
+	cd /home/cefika/Desktop/RG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make libs/imgui/CMakeFiles/imgui.dir/src/imgui.cpp.o
 .PHONY : src/imgui.cpp.o
 
 src/imgui.i: src/imgui.cpp.i
@@ -160,7 +160,7 @@ src/imgui.i: src/imgui.cpp.i
 
 # target to preprocess a source file
 src/imgui.cpp.i:
-	cd /home/cefika/GRAFIKA/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make libs/imgui/CMakeFiles/imgui.dir/src/imgui.cpp.i
+	cd /home/cefika/Desktop/RG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make libs/imgui/CMakeFiles/imgui.dir/src/imgui.cpp.i
 .PHONY : src/imgui.cpp.i
 
 src/imgui.s: src/imgui.cpp.s
@@ -169,7 +169,7 @@ src/imgui.s: src/imgui.cpp.s
 
 # target to generate assembly for a file
 src/imgui.cpp.s:
-	cd /home/cefika/GRAFIKA/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make libs/imgui/CMakeFiles/imgui.dir/src/imgui.cpp.s
+	cd /home/cefika/Desktop/RG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make libs/imgui/CMakeFiles/imgui.dir/src/imgui.cpp.s
 .PHONY : src/imgui.cpp.s
 
 src/imgui_(copy).o: src/imgui_(copy).cpp.o
@@ -178,7 +178,7 @@ src/imgui_(copy).o: src/imgui_(copy).cpp.o
 
 # target to build an object file
 src/imgui_(copy).cpp.o:
-	cd /home/cefika/GRAFIKA/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make "libs/imgui/CMakeFiles/imgui.dir/src/imgui_(copy).cpp.o"
+	cd /home/cefika/Desktop/RG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make "libs/imgui/CMakeFiles/imgui.dir/src/imgui_(copy).cpp.o"
 .PHONY : src/imgui_(copy).cpp.o
 
 src/imgui_(copy).i: src/imgui_(copy).cpp.i
@@ -187,7 +187,7 @@ src/imgui_(copy).i: src/imgui_(copy).cpp.i
 
 # target to preprocess a source file
 src/imgui_(copy).cpp.i:
-	cd /home/cefika/GRAFIKA/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make "libs/imgui/CMakeFiles/imgui.dir/src/imgui_(copy).cpp.i"
+	cd /home/cefika/Desktop/RG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make "libs/imgui/CMakeFiles/imgui.dir/src/imgui_(copy).cpp.i"
 .PHONY : src/imgui_(copy).cpp.i
 
 src/imgui_(copy).s: src/imgui_(copy).cpp.s
@@ -196,7 +196,7 @@ src/imgui_(copy).s: src/imgui_(copy).cpp.s
 
 # target to generate assembly for a file
 src/imgui_(copy).cpp.s:
-	cd /home/cefika/GRAFIKA/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make "libs/imgui/CMakeFiles/imgui.dir/src/imgui_(copy).cpp.s"
+	cd /home/cefika/Desktop/RG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make "libs/imgui/CMakeFiles/imgui.dir/src/imgui_(copy).cpp.s"
 .PHONY : src/imgui_(copy).cpp.s
 
 src/imgui_demo.o: src/imgui_demo.cpp.o
@@ -205,7 +205,7 @@ src/imgui_demo.o: src/imgui_demo.cpp.o
 
 # target to build an object file
 src/imgui_demo.cpp.o:
-	cd /home/cefika/GRAFIKA/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make libs/imgui/CMakeFiles/imgui.dir/src/imgui_demo.cpp.o
+	cd /home/cefika/Desktop/RG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make libs/imgui/CMakeFiles/imgui.dir/src/imgui_demo.cpp.o
 .PHONY : src/imgui_demo.cpp.o
 
 src/imgui_demo.i: src/imgui_demo.cpp.i
@@ -214,7 +214,7 @@ src/imgui_demo.i: src/imgui_demo.cpp.i
 
 # target to preprocess a source file
 src/imgui_demo.cpp.i:
-	cd /home/cefika/GRAFIKA/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make libs/imgui/CMakeFiles/imgui.dir/src/imgui_demo.cpp.i
+	cd /home/cefika/Desktop/RG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make libs/imgui/CMakeFiles/imgui.dir/src/imgui_demo.cpp.i
 .PHONY : src/imgui_demo.cpp.i
 
 src/imgui_demo.s: src/imgui_demo.cpp.s
@@ -223,7 +223,7 @@ src/imgui_demo.s: src/imgui_demo.cpp.s
 
 # target to generate assembly for a file
 src/imgui_demo.cpp.s:
-	cd /home/cefika/GRAFIKA/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make libs/imgui/CMakeFiles/imgui.dir/src/imgui_demo.cpp.s
+	cd /home/cefika/Desktop/RG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make libs/imgui/CMakeFiles/imgui.dir/src/imgui_demo.cpp.s
 .PHONY : src/imgui_demo.cpp.s
 
 src/imgui_demo_(copy).o: src/imgui_demo_(copy).cpp.o
@@ -232,7 +232,7 @@ src/imgui_demo_(copy).o: src/imgui_demo_(copy).cpp.o
 
 # target to build an object file
 src/imgui_demo_(copy).cpp.o:
-	cd /home/cefika/GRAFIKA/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make "libs/imgui/CMakeFiles/imgui.dir/src/imgui_demo_(copy).cpp.o"
+	cd /home/cefika/Desktop/RG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make "libs/imgui/CMakeFiles/imgui.dir/src/imgui_demo_(copy).cpp.o"
 .PHONY : src/imgui_demo_(copy).cpp.o
 
 src/imgui_demo_(copy).i: src/imgui_demo_(copy).cpp.i
@@ -241,7 +241,7 @@ src/imgui_demo_(copy).i: src/imgui_demo_(copy).cpp.i
 
 # target to preprocess a source file
 src/imgui_demo_(copy).cpp.i:
-	cd /home/cefika/GRAFIKA/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make "libs/imgui/CMakeFiles/imgui.dir/src/imgui_demo_(copy).cpp.i"
+	cd /home/cefika/Desktop/RG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make "libs/imgui/CMakeFiles/imgui.dir/src/imgui_demo_(copy).cpp.i"
 .PHONY : src/imgui_demo_(copy).cpp.i
 
 src/imgui_demo_(copy).s: src/imgui_demo_(copy).cpp.s
@@ -250,7 +250,7 @@ src/imgui_demo_(copy).s: src/imgui_demo_(copy).cpp.s
 
 # target to generate assembly for a file
 src/imgui_demo_(copy).cpp.s:
-	cd /home/cefika/GRAFIKA/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make "libs/imgui/CMakeFiles/imgui.dir/src/imgui_demo_(copy).cpp.s"
+	cd /home/cefika/Desktop/RG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make "libs/imgui/CMakeFiles/imgui.dir/src/imgui_demo_(copy).cpp.s"
 .PHONY : src/imgui_demo_(copy).cpp.s
 
 src/imgui_draw.o: src/imgui_draw.cpp.o
@@ -259,7 +259,7 @@ src/imgui_draw.o: src/imgui_draw.cpp.o
 
 # target to build an object file
 src/imgui_draw.cpp.o:
-	cd /home/cefika/GRAFIKA/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make libs/imgui/CMakeFiles/imgui.dir/src/imgui_draw.cpp.o
+	cd /home/cefika/Desktop/RG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make libs/imgui/CMakeFiles/imgui.dir/src/imgui_draw.cpp.o
 .PHONY : src/imgui_draw.cpp.o
 
 src/imgui_draw.i: src/imgui_draw.cpp.i
@@ -268,7 +268,7 @@ src/imgui_draw.i: src/imgui_draw.cpp.i
 
 # target to preprocess a source file
 src/imgui_draw.cpp.i:
-	cd /home/cefika/GRAFIKA/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make libs/imgui/CMakeFiles/imgui.dir/src/imgui_draw.cpp.i
+	cd /home/cefika/Desktop/RG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make libs/imgui/CMakeFiles/imgui.dir/src/imgui_draw.cpp.i
 .PHONY : src/imgui_draw.cpp.i
 
 src/imgui_draw.s: src/imgui_draw.cpp.s
@@ -277,7 +277,7 @@ src/imgui_draw.s: src/imgui_draw.cpp.s
 
 # target to generate assembly for a file
 src/imgui_draw.cpp.s:
-	cd /home/cefika/GRAFIKA/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make libs/imgui/CMakeFiles/imgui.dir/src/imgui_draw.cpp.s
+	cd /home/cefika/Desktop/RG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make libs/imgui/CMakeFiles/imgui.dir/src/imgui_draw.cpp.s
 .PHONY : src/imgui_draw.cpp.s
 
 src/imgui_draw_(copy).o: src/imgui_draw_(copy).cpp.o
@@ -286,7 +286,7 @@ src/imgui_draw_(copy).o: src/imgui_draw_(copy).cpp.o
 
 # target to build an object file
 src/imgui_draw_(copy).cpp.o:
-	cd /home/cefika/GRAFIKA/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make "libs/imgui/CMakeFiles/imgui.dir/src/imgui_draw_(copy).cpp.o"
+	cd /home/cefika/Desktop/RG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make "libs/imgui/CMakeFiles/imgui.dir/src/imgui_draw_(copy).cpp.o"
 .PHONY : src/imgui_draw_(copy).cpp.o
 
 src/imgui_draw_(copy).i: src/imgui_draw_(copy).cpp.i
@@ -295,7 +295,7 @@ src/imgui_draw_(copy).i: src/imgui_draw_(copy).cpp.i
 
 # target to preprocess a source file
 src/imgui_draw_(copy).cpp.i:
-	cd /home/cefika/GRAFIKA/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make "libs/imgui/CMakeFiles/imgui.dir/src/imgui_draw_(copy).cpp.i"
+	cd /home/cefika/Desktop/RG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make "libs/imgui/CMakeFiles/imgui.dir/src/imgui_draw_(copy).cpp.i"
 .PHONY : src/imgui_draw_(copy).cpp.i
 
 src/imgui_draw_(copy).s: src/imgui_draw_(copy).cpp.s
@@ -304,7 +304,7 @@ src/imgui_draw_(copy).s: src/imgui_draw_(copy).cpp.s
 
 # target to generate assembly for a file
 src/imgui_draw_(copy).cpp.s:
-	cd /home/cefika/GRAFIKA/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make "libs/imgui/CMakeFiles/imgui.dir/src/imgui_draw_(copy).cpp.s"
+	cd /home/cefika/Desktop/RG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make "libs/imgui/CMakeFiles/imgui.dir/src/imgui_draw_(copy).cpp.s"
 .PHONY : src/imgui_draw_(copy).cpp.s
 
 src/imgui_impl_glfw.o: src/imgui_impl_glfw.cpp.o
@@ -313,7 +313,7 @@ src/imgui_impl_glfw.o: src/imgui_impl_glfw.cpp.o
 
 # target to build an object file
 src/imgui_impl_glfw.cpp.o:
-	cd /home/cefika/GRAFIKA/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make libs/imgui/CMakeFiles/imgui.dir/src/imgui_impl_glfw.cpp.o
+	cd /home/cefika/Desktop/RG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make libs/imgui/CMakeFiles/imgui.dir/src/imgui_impl_glfw.cpp.o
 .PHONY : src/imgui_impl_glfw.cpp.o
 
 src/imgui_impl_glfw.i: src/imgui_impl_glfw.cpp.i
@@ -322,7 +322,7 @@ src/imgui_impl_glfw.i: src/imgui_impl_glfw.cpp.i
 
 # target to preprocess a source file
 src/imgui_impl_glfw.cpp.i:
-	cd /home/cefika/GRAFIKA/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make libs/imgui/CMakeFiles/imgui.dir/src/imgui_impl_glfw.cpp.i
+	cd /home/cefika/Desktop/RG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make libs/imgui/CMakeFiles/imgui.dir/src/imgui_impl_glfw.cpp.i
 .PHONY : src/imgui_impl_glfw.cpp.i
 
 src/imgui_impl_glfw.s: src/imgui_impl_glfw.cpp.s
@@ -331,7 +331,7 @@ src/imgui_impl_glfw.s: src/imgui_impl_glfw.cpp.s
 
 # target to generate assembly for a file
 src/imgui_impl_glfw.cpp.s:
-	cd /home/cefika/GRAFIKA/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make libs/imgui/CMakeFiles/imgui.dir/src/imgui_impl_glfw.cpp.s
+	cd /home/cefika/Desktop/RG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make libs/imgui/CMakeFiles/imgui.dir/src/imgui_impl_glfw.cpp.s
 .PHONY : src/imgui_impl_glfw.cpp.s
 
 src/imgui_impl_opengl3.o: src/imgui_impl_opengl3.cpp.o
@@ -340,7 +340,7 @@ src/imgui_impl_opengl3.o: src/imgui_impl_opengl3.cpp.o
 
 # target to build an object file
 src/imgui_impl_opengl3.cpp.o:
-	cd /home/cefika/GRAFIKA/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make libs/imgui/CMakeFiles/imgui.dir/src/imgui_impl_opengl3.cpp.o
+	cd /home/cefika/Desktop/RG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make libs/imgui/CMakeFiles/imgui.dir/src/imgui_impl_opengl3.cpp.o
 .PHONY : src/imgui_impl_opengl3.cpp.o
 
 src/imgui_impl_opengl3.i: src/imgui_impl_opengl3.cpp.i
@@ -349,7 +349,7 @@ src/imgui_impl_opengl3.i: src/imgui_impl_opengl3.cpp.i
 
 # target to preprocess a source file
 src/imgui_impl_opengl3.cpp.i:
-	cd /home/cefika/GRAFIKA/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make libs/imgui/CMakeFiles/imgui.dir/src/imgui_impl_opengl3.cpp.i
+	cd /home/cefika/Desktop/RG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make libs/imgui/CMakeFiles/imgui.dir/src/imgui_impl_opengl3.cpp.i
 .PHONY : src/imgui_impl_opengl3.cpp.i
 
 src/imgui_impl_opengl3.s: src/imgui_impl_opengl3.cpp.s
@@ -358,7 +358,7 @@ src/imgui_impl_opengl3.s: src/imgui_impl_opengl3.cpp.s
 
 # target to generate assembly for a file
 src/imgui_impl_opengl3.cpp.s:
-	cd /home/cefika/GRAFIKA/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make libs/imgui/CMakeFiles/imgui.dir/src/imgui_impl_opengl3.cpp.s
+	cd /home/cefika/Desktop/RG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make libs/imgui/CMakeFiles/imgui.dir/src/imgui_impl_opengl3.cpp.s
 .PHONY : src/imgui_impl_opengl3.cpp.s
 
 src/imgui_tables.o: src/imgui_tables.cpp.o
@@ -367,7 +367,7 @@ src/imgui_tables.o: src/imgui_tables.cpp.o
 
 # target to build an object file
 src/imgui_tables.cpp.o:
-	cd /home/cefika/GRAFIKA/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make libs/imgui/CMakeFiles/imgui.dir/src/imgui_tables.cpp.o
+	cd /home/cefika/Desktop/RG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make libs/imgui/CMakeFiles/imgui.dir/src/imgui_tables.cpp.o
 .PHONY : src/imgui_tables.cpp.o
 
 src/imgui_tables.i: src/imgui_tables.cpp.i
@@ -376,7 +376,7 @@ src/imgui_tables.i: src/imgui_tables.cpp.i
 
 # target to preprocess a source file
 src/imgui_tables.cpp.i:
-	cd /home/cefika/GRAFIKA/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make libs/imgui/CMakeFiles/imgui.dir/src/imgui_tables.cpp.i
+	cd /home/cefika/Desktop/RG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make libs/imgui/CMakeFiles/imgui.dir/src/imgui_tables.cpp.i
 .PHONY : src/imgui_tables.cpp.i
 
 src/imgui_tables.s: src/imgui_tables.cpp.s
@@ -385,7 +385,7 @@ src/imgui_tables.s: src/imgui_tables.cpp.s
 
 # target to generate assembly for a file
 src/imgui_tables.cpp.s:
-	cd /home/cefika/GRAFIKA/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make libs/imgui/CMakeFiles/imgui.dir/src/imgui_tables.cpp.s
+	cd /home/cefika/Desktop/RG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make libs/imgui/CMakeFiles/imgui.dir/src/imgui_tables.cpp.s
 .PHONY : src/imgui_tables.cpp.s
 
 src/imgui_tables_(copy).o: src/imgui_tables_(copy).cpp.o
@@ -394,7 +394,7 @@ src/imgui_tables_(copy).o: src/imgui_tables_(copy).cpp.o
 
 # target to build an object file
 src/imgui_tables_(copy).cpp.o:
-	cd /home/cefika/GRAFIKA/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make "libs/imgui/CMakeFiles/imgui.dir/src/imgui_tables_(copy).cpp.o"
+	cd /home/cefika/Desktop/RG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make "libs/imgui/CMakeFiles/imgui.dir/src/imgui_tables_(copy).cpp.o"
 .PHONY : src/imgui_tables_(copy).cpp.o
 
 src/imgui_tables_(copy).i: src/imgui_tables_(copy).cpp.i
@@ -403,7 +403,7 @@ src/imgui_tables_(copy).i: src/imgui_tables_(copy).cpp.i
 
 # target to preprocess a source file
 src/imgui_tables_(copy).cpp.i:
-	cd /home/cefika/GRAFIKA/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make "libs/imgui/CMakeFiles/imgui.dir/src/imgui_tables_(copy).cpp.i"
+	cd /home/cefika/Desktop/RG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make "libs/imgui/CMakeFiles/imgui.dir/src/imgui_tables_(copy).cpp.i"
 .PHONY : src/imgui_tables_(copy).cpp.i
 
 src/imgui_tables_(copy).s: src/imgui_tables_(copy).cpp.s
@@ -412,7 +412,7 @@ src/imgui_tables_(copy).s: src/imgui_tables_(copy).cpp.s
 
 # target to generate assembly for a file
 src/imgui_tables_(copy).cpp.s:
-	cd /home/cefika/GRAFIKA/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make "libs/imgui/CMakeFiles/imgui.dir/src/imgui_tables_(copy).cpp.s"
+	cd /home/cefika/Desktop/RG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make "libs/imgui/CMakeFiles/imgui.dir/src/imgui_tables_(copy).cpp.s"
 .PHONY : src/imgui_tables_(copy).cpp.s
 
 src/imgui_widgets.o: src/imgui_widgets.cpp.o
@@ -421,7 +421,7 @@ src/imgui_widgets.o: src/imgui_widgets.cpp.o
 
 # target to build an object file
 src/imgui_widgets.cpp.o:
-	cd /home/cefika/GRAFIKA/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make libs/imgui/CMakeFiles/imgui.dir/src/imgui_widgets.cpp.o
+	cd /home/cefika/Desktop/RG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make libs/imgui/CMakeFiles/imgui.dir/src/imgui_widgets.cpp.o
 .PHONY : src/imgui_widgets.cpp.o
 
 src/imgui_widgets.i: src/imgui_widgets.cpp.i
@@ -430,7 +430,7 @@ src/imgui_widgets.i: src/imgui_widgets.cpp.i
 
 # target to preprocess a source file
 src/imgui_widgets.cpp.i:
-	cd /home/cefika/GRAFIKA/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make libs/imgui/CMakeFiles/imgui.dir/src/imgui_widgets.cpp.i
+	cd /home/cefika/Desktop/RG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make libs/imgui/CMakeFiles/imgui.dir/src/imgui_widgets.cpp.i
 .PHONY : src/imgui_widgets.cpp.i
 
 src/imgui_widgets.s: src/imgui_widgets.cpp.s
@@ -439,7 +439,7 @@ src/imgui_widgets.s: src/imgui_widgets.cpp.s
 
 # target to generate assembly for a file
 src/imgui_widgets.cpp.s:
-	cd /home/cefika/GRAFIKA/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make libs/imgui/CMakeFiles/imgui.dir/src/imgui_widgets.cpp.s
+	cd /home/cefika/Desktop/RG/cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs/imgui/CMakeFiles/imgui.dir/build.make libs/imgui/CMakeFiles/imgui.dir/src/imgui_widgets.cpp.s
 .PHONY : src/imgui_widgets.cpp.s
 
 # Help Target
@@ -495,6 +495,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/cefika/GRAFIKA/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/cefika/Desktop/RG/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/cefika/GRAFIKA/libs/glad
+# Install script for directory: /home/cefika/Desktop/RG/libs/glad
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,4 +1,4 @@
-/home/cefika/CLion-2020.2.4/clion-2020.2.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/cefika/GRAFIKA
+/home/cefika/CLion-2020.2.4/clion-2020.2.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/cefika/Desktop/RG
 -- The C compiler identification is GNU 10.2.1
 -- The CXX compiler identification is GNU 10.2.1
 -- Check for working C compiler: /usr/bin/cc
@@ -16,4 +16,4 @@
 -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/cefika/GRAFIKA/cmake-build-debug
+-- Build files have been written to: /home/cefika/Desktop/RG/cmake-build-debug

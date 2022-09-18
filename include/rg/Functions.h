@@ -18,6 +18,13 @@ public:
         tvModel.Draw(shader);
     }
 
+    void loadSofa(Model &sofaModel, glm::mat4 &model, Shader &shader) {
+        model = glm::translate(model, glm::vec3(2.0f, -0.01f, -3.3f));
+        model = glm::scale(model, glm::vec3(1.0f));
+        shader.setMat4("model", model);
+        sofaModel.Draw(shader);
+    }
+
     void loadDesk(Model &deskModel, glm::mat4 &model, Shader &shader) {
         model = glm::translate(model, glm::vec3(2.0f, 0.005f, 3.5f));
         model = glm::scale(model, glm::vec3(0.02f, 0.04f, 0.02f));

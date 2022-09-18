@@ -68,10 +68,10 @@ RM = /home/cefika/CLion-2020.2.4/clion-2020.2.4/bin/cmake/linux/bin/cmake -E rm 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cefika/GRAFIKA
+CMAKE_SOURCE_DIR = /home/cefika/Desktop/RG
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cefika/GRAFIKA/cmake-build-debug
+CMAKE_BINARY_DIR = /home/cefika/Desktop/RG/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cefika/GRAFIKA/cmake-build-debug/CMakeFiles /home/cefika/GRAFIKA/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cefika/Desktop/RG/cmake-build-debug/CMakeFiles /home/cefika/Desktop/RG/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cefika/GRAFIKA/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cefika/Desktop/RG/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

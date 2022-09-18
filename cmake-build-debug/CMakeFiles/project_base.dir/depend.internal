@@ -240,9 +240,9 @@ CMakeFiles/project_base.dir/src/main.cpp.o
  ../include/stb_image.h
  ../libs/glad/include/KHR/khrplatform.h
  ../libs/glad/include/glad/glad.h
- /home/cefika/GRAFIKA/libs/imgui/include/imconfig.h
- /home/cefika/GRAFIKA/libs/imgui/include/imgui.h
- /home/cefika/GRAFIKA/libs/imgui/include/imgui_impl_glfw.h
- /home/cefika/GRAFIKA/libs/imgui/include/imgui_impl_opengl3.h
- /home/cefika/GRAFIKA/src/main.cpp
+ /home/cefika/Desktop/RG/libs/imgui/include/imconfig.h
+ /home/cefika/Desktop/RG/libs/imgui/include/imgui.h
+ /home/cefika/Desktop/RG/libs/imgui/include/imgui_impl_glfw.h
+ /home/cefika/Desktop/RG/libs/imgui/include/imgui_impl_opengl3.h
+ /home/cefika/Desktop/RG/src/main.cpp
  configuration/root_directory.h

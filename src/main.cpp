@@ -34,7 +34,7 @@ void renderQuad2();
 // settings
 const unsigned int SCR_WIDTH = 1200;
 const unsigned int SCR_HEIGHT = 1000;
-
+// struct PS
 struct ProgramState {
     float kernel = 0.01f;
     bool ImGuiEnabled = false;
@@ -149,6 +149,7 @@ int main()
 
     Model tvModel(FileSystem::getPath("resources/objects/tv/TV set N140418.obj").c_str());
     Model deskModel(FileSystem::getPath("resources/objects/desk/CoffeeTable1.obj").c_str());
+    Model sofaModel(FileSystem::getPath("resources/objects/sofa/sofa2.obj").c_str());
 
     Shader shader(FileSystem::getPath("resources/shaders/vertexShader.vs").c_str(),
                   FileSystem::getPath("resources/shaders/fragmentShader.fs").c_str());
@@ -641,6 +642,11 @@ int main()
         model = glm::mat4(1.0f);
         function.loadDesk(deskModel, model, shader);
 
+        shader.setMat4("view", programState->view);
+        shader.setMat4("projection", projection);
+        model = glm::mat4(1.0f);
+        function.loadSofa(sofaModel, model, shader);
+
         //floor
         glBindVertexArray(floorVAO);
         function.settingUpFloor(lightingShader, model, floor);
@@ -705,6 +711,7 @@ int main()
         glDepthMask(GL_TRUE);
         glDepthFunc(GL_LESS);
 
+        //normal
         Normalshader.use();
         Normalshader.setMat4("projection", projection);
         Normalshader.setMat4("view", programState->camera.GetViewMatrix());
@@ -718,6 +725,7 @@ int main()
         glBindTexture(GL_TEXTURE_2D, normalMap2);
         renderQuad2();
 
+        //parall
         Parshader.use();
         Parshader.setMat4("projection", projection);
         Parshader.setMat4("view", programState->camera.GetViewMatrix());
@@ -726,7 +734,7 @@ int main()
         Parshader.setMat4("model", model2);
         Parshader.setVec3("viewPos", programState->camera.Position);
         Parshader.setVec3("lightPos", 15.0f,1.5f,14);
-        //Parshader.setFloat("heightScale", heightScale); // adjust with Q and E keys
+        Parshader.setFloat("heightScale", heightScale); // adjust with Q and E keys
         glActiveTexture(GL_TEXTURE1);
         glBindTexture(GL_TEXTURE_2D, normalMap);
         glActiveTexture(GL_TEXTURE2);
@@ -735,6 +743,7 @@ int main()
         glBindTexture(GL_TEXTURE_2D, diffuseMap);
         renderQuad();
 
+        // blending
         blendingShader.use();
         blendingShader.setMat4("projection", projection);
         blendingShader.setMat4("view", programState->view);
@@ -793,11 +802,12 @@ int main()
         glfwSwapBuffers(window);
         glfwPollEvents();
     }
+    programState->SaveToDisk("resources/program_state.txt");
+    delete programState;
     ImGui_ImplOpenGL3_Shutdown();
     ImGui_ImplGlfw_Shutdown();
     ImGui::DestroyContext();
-    //programState->SaveToDisk("resources/program_state.txt");
-    delete programState;
+
     // optional: de-allocate all resources once they've outlived their purpose:
     // ------------------------------------------------------------------------
     glDeleteVertexArrays(1, &VAO);
@@ -885,7 +895,7 @@ void mouse_callback(GLFWwindow* window, double xpos, double ypos) {
 }
 void scroll_callback(GLFWwindow* window, double xoffset, double yoffset) {
     programState->camera.ProcessMouseScroll(yoffset);
-    //programState->effect = true;
+    programState->effect = true;
 }
 unsigned int loadTexture(char const *path) {
     unsigned int textureID;
@@ -955,19 +965,16 @@ void DrawImGui(ProgramState *programState) {
     ImGui::NewFrame();
 
     {
-        ImGui::Begin("Hello window");
-        ImGui::Text("Hello text");
-
-        ImGui::End();
-    }
-
-    {
+        float f = 0.0f;
         ImGui::Begin("Camera info");
-        const Camera& c = programState->camera;
+        Camera& c = programState->camera;
+        ImGui::SliderFloat("X slider", &f, 0.0, 50.0);
+        c.Position.x=f;
         ImGui::Text("Camera position: (%f, %f, %f)", c.Position.x, c.Position.y, c.Position.z);
         ImGui::Text("(Yaw, Pitch): (%f, %f)", c.Yaw, c.Pitch);
         ImGui::Text("Camera front: (%f, %f, %f)", c.Front.x, c.Front.y, c.Front.z);
         ImGui::Checkbox("Camera mouse update", &programState->CameraMouseMovementUpdateEnabled);
+
         ImGui::End();
     }
 
